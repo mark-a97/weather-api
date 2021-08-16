@@ -1,0 +1,121 @@
+body {
+    background: radial-gradient(#e5e5e5, #ffff, #e5e5e5);
+}
+
+.card-light {
+    width: 20rem;
+    background-color: #f1e9ba !important;
+}
+
+.card-dark {
+    width: 20rem;
+    background-color: #212529 !important;
+}
+
+.card-light:hover, .card-dark:hover {
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
+}
+
+.card-body {
+    padding: 3rem 0 !important;
+    min-height: 21.5em;
+}
+
+.card-body-todo {
+    padding: 3rem 0 !important;
+}
+
+.card-text-light {
+    font-size: .9rem;
+    padding: 0.4rem 1.9rem;
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+}
+
+.card-text-dark{
+    font-size: .9rem;
+    padding: 0.4rem 1.9rem;
+    --bs-text-opacity: 1;
+    color: rgb(221, 210, 210) !important;
+}
+
+.color-light {
+    color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
+}
+
+.color-dark {
+    color: rgb(221, 210, 210) !important;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.card-img-top{
+    transform: scale(1);
+    transition: transform 0.5s ease;
+    height: 200px;
+}
+
+.card-img-top:hover {
+    transform: scale(1.2);
+}
+
+.this-img{
+    padding: 0 !important;
+    min-height: 28em !important;
+    margin-top:2em;
+}
+
+.information-card {
+    color: rgb(209, 204, 204);
+}
+
+.info-para-light {
+    padding: 1em;
+    max-width: 20em;
+    overflow: wrap;
+    width:fit-content;
+    background-color: rgb(209, 204, 204);
+}
+
+.info-para-dark {
+    padding: 1em;
+    max-width: 20em;
+    overflow: wrap;
+    width:fit-content;
+}
+
+body .btn-success {
+    background-color: #23255f;
+    border-color: #23255f;
+}
+body .btn-success:hover {
+    background-color: #191a4e;
+}
+body .btn-success:active, body .btn-success:focus {
+    background-color: #191a4e ;
+   
+}
+
+body .btn-disabled {
+    color: #fff; 
+    background-color: #dc3545;
+    border-color: #dc3545;
+    cursor: auto;
+}
+
+body .btn-disabled:hover {
+    background-color: #dc3545;
+    color: #fff; 
+}
+
+@media only screen and (max-width: 600px) {
+    .this-img {
+        min-height: auto !important;
+        margin-top: 5em;
+    }
+    .card-img-top {
+        height: 15em;
+    }
+  }
